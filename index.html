@@ -1,0 +1,67 @@
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>nase DESERTY</title>
+      <link rel="stylesheet" href="style.css">
+      <script defer src="details.js"></script>
+    </head>
+
+    <body>
+      <div class="container">
+          <h1>naše</h1>
+          <h2>DEZERTY</h2>
+      </div>
+
+      <button data-modal-target="#modal"style="
+        cursor:pointer;
+        width: 200px;
+        height: 100px;
+        background: pink;
+        border-radius: 90px 90px 0 0;
+        position: absolute;
+        bottom: 0%;
+        left: 43.5%;"> +
+      </button>
+      <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="title">
+          <img src ="images/milk_shake_zoom.png" alt="">
+        </div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </div>
+    </div>
+
+    <div id="overlay"></div>
+
+      <div class="slidershow middle">
+
+        <div class="slides">
+          <input type="radio" name="r" id="r1" checked>
+          <input type="radio" name="r" id="r2">
+          <input type="radio" name="r" id="r3">
+        
+          <div class="slide s1">
+            <img src="images/milk_shake.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/shake_deluxe.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/taska.png" alt="">
+          </div>
+
+        <div class="navigation">
+          <label for="r1" class="bar"></label>
+          <label for="r2" class="bar"></label>
+          <label for="r3" class="bar"></label>
+      </div>
+
+      
+      
+      
+    </body>
+  </html>
